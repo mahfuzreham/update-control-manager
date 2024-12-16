@@ -66,12 +66,13 @@ function ucm_settings_page() {
                 <p style="margin: 5px 0;"><strong>Plugin Author</strong></p>
                 <p style="margin: 0;">GitHub Profile: <a href="https://github.com/mahfuzreham" target="_blank">Visit Here</a></p>
                  <p style="margin: 0;">Website: <a href="https://mahfuzreham.com" target="_blank">Visit Here</a></p>
+                 <a href="https://www.buymeacoffee.com/mahfuzreham"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me an internet&emoji=🌐&slug=mahfuzreham&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
             </div>
         </div>
     </div>
     <?php
 }
-
 
 // Register Settings Fields
 function ucm_register_fields() {
@@ -144,4 +145,3 @@ if (get_option('disable_core_updates')) {
     add_filter('auto_update_core', '__return_false');
     add_filter('pre_site_transient_update_core', '__return_null');
 }
-
