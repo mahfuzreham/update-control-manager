@@ -2,10 +2,10 @@
 {
   "name": "Update Control Manager",
   "slug": "update-control-manager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Md Mahfuz Reham",
   "description": "This is an updated version of the Update Control Manager plugin.",
-  "download_url": "https://github.com/mahfuzreham/update-control-manager/releases/download/v1.1.0/update-control-manager-v1.1.0.zip",
+  "download_url": "https://github.com/user-attachments/files/18168766/update-control-manager-1.1.1.zip",
   "requires": "5.0",
   "tested": "6.4"
 }
